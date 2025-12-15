@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="nav-brand"><a href="index.html" class="logo-text">Mi Proyecto Digital</a></div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="seguridad.html" class="nav-link">Seguridad</a></li>
+                <li><a href="bienestar.html" class="nav-link">Bienestar</a></li>
+                <li><a href="privacidad.html" class="nav-link">Privacidad</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <div class="hamburger"><span></span><span></span><span></span></div>
+        </div>
+    </header>
+
+    <main class="container" style="padding-top:120px;">
+        <section style="max-width:700px;margin:0 auto;">
+            <h1 class="section-title"><span class="title-number">Iniciar sesión</span></h1>
+            <p style="color:var(--gray);">Login simulado: sin backend, usando <code>localStorage</code>. Puedes usar el usuario de ejemplo o crear uno.</p>
+
+            <form id="loginForm" style="background:rgba(var(--dark-rgb),0.6);padding:2rem;border-radius:12px;border:1px solid rgba(var(--primary-rgb),0.06);">
+                <div class="form-group">
+                    <input id="user" type="text" required>
+                    <label for="user">Usuario</label>
+                    <span class="focus-border"></span>
+                </div>
+                <div class="form-group">
+                    <input id="pass" type="password" minlength="4" required>
+                    <label for="pass">Contraseña</label>
+                    <span class="focus-border"></span>
+                </div>
+                <button type="submit" class="btn btn-primary btn-submit"><span>Entrar</span><div class="btn-glow"></div></button>
+                <p style="color:var(--gray);margin-top:1rem;">Autenticación simulada. Usuario demo: <strong>alumno</strong>, contraseña <strong>1234</strong></p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; Mi Proyecto Digital</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

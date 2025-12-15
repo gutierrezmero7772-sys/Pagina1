@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="nav-brand"><a href="index.html" class="logo-text"></a></div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html#projects">Temas</a></li>
+                <li><a href="seguridad.html">Servidor</a></li>
+                <li><a href="bienestar.html">Dominio</a></li>
+                <li><a href="privacidad.html">Alojamiento</a></li>
+                <li><a href="multimedia.html">Solución Web</a></li>
+                <li><a href="contacto.html" class="nav-link active">Contacto</a></li>
+            </ul>
+            <div class="hamburger"><span></span><span></span><span></span></div>
+        </div>
+    </header>
+
+    <main class="container" style="padding-top:120px;">
+        <section>
+            <h1 class="section-title"><span class="title-number">Contacto</span></h1>
+            <p style="color:var(--gray);">¿Tienes preguntas sobre publicación de sitios web, servidores, dominios o hosting? Ponte en contacto con nosotros. Responderemos lo antes posible.</p>
+        </section>
+
+        <section style="margin-top:2rem;">
+            <!-- Para recibir mensajes en tu Gmail usa Formspree u otro servicio
+                 - Regístrate en Formspree y reemplaza YOUR_FORM_ID en script.js
+                 - También puedes usar EmailJS o un backend propio
+            -->
+            <form id="contactForm" class="contact-form" action="https://formspree.io/f/xpwvrzqg" method="POST">
+                <input type="hidden" name="_subject" value="Nuevo mensaje — Mi Proyecto Digital">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" required>
+                    <label for="name">Nombre</label>
+                    <span class="focus-border"></span>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required>
+                    <label for="email">Email</label>
+                    <span class="focus-border"></span>
+                </div>
+
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <label for="message">Mensaje</label>
+                    <span class="focus-border"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-submit"><span>Enviar mensaje</span><div class="btn-glow"></div></button>
+            </form>
+
+        </section>
+    </main>
+
+</body>
+</html>

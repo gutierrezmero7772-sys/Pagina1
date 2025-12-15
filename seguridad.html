@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Servidor Web - Publicación de Sitios Web</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="nav-brand"><a href="index.html" class="logo-text">Publicación Web</a></div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html#projects">Temas</a></li>
+                <li><a href="seguridad.html" class="nav-link active">Servidor</a></li>
+                <li><a href="bienestar.html" class="nav-link">Dominio</a></li>
+                <li><a href="privacidad.html" class="nav-link">Alojamiento</a></li>
+                <li><a href="multimedia.html" class="nav-link">Solución Web</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <div class="hamburger"><span></span><span></span><span></span></div>
+        </div>
+    </header>
+
+    <main class="container" style="padding-top:120px;">
+        <section>
+            <h1 class="section-title"><span class="title-number">01.</span> Servidor Web: La Base de tu Presencia Online</h1>
+            <p style="color:var(--gray);font-size:1.1rem;">Un servidor web es la infraestructura fundamental que alberga y distribuye tu sitio web a través de internet. Comprrender cómo funcionan es esencial para cualquier publicador digital moderno.</p>
+
+            <hr style="border:none;border-top:1px solid rgba(var(--light-rgb),0.04);margin-top:1.6rem;" />
+
+            <h2 style="color:var(--light);margin-top:1.5rem;">¿Qué es un Servidor Web?</h2>
+            <p style="color:var(--gray);margin-top:0.8rem;">Un servidor web es una computadora potente y especializada que almacena archivos (HTML, CSS, imágenes, videos) y está conectada permanentemente a internet. Cuando alguien accede a tu sitio web, envía una solicitud HTTP que el servidor recibe, procesa y envía de vuelta el contenido al navegador del usuario.</p>
+            
+            <p style="color:var(--gray);margin-top:0.8rem;"><strong>Características principales:</strong></p>
+            <ul style="margin-top:0.5rem;color:var(--gray);margin-left:1.5rem;">
+                <li>Disponibilidad 24/7: Están diseñados para funcionar sin interrupción</li>
+                <li>Alto rendimiento: Procesan miles de solicitudes simultáneas</li>
+                <li>Seguridad robusta: Protegen tus datos con certificados SSL y firewall</li>
+                <li>Redundancia: Copias de seguridad automáticas y respaldo en caso de fallos</li>
+                <li>Escalabilidad: Pueden crecer según las necesidades de tu sitio</li>
+            </ul>
+
+            <h2 style="color:var(--light);margin-top:1.5rem;">Tipos de Servidores Web</h2>
+            <p style="color:var(--gray);margin-top:0.8rem;">Existen varios tipos de servidores adaptados a diferentes necesidades:</p>
+
+            <div style="margin-top:1rem;">
+                <h4 style="color:var(--primary);margin-top:1rem;">1. Servidor Compartido (Shared Hosting)</h4>
+                <p style="color:var(--gray);margin-top:0.5rem;"><strong>¿Qué es?</strong> Múltiples sitios web comparten recursos en el mismo servidor físico.</p>
+                <p style="color:var(--gray);"><strong>Ventajas:</strong> Económico, fácil de usar, ideal para principiantes y pequeños proyectos.</p>
+                <p style="color:var(--gray);"><strong>Desventajas:</strong> Rendimiento limitado, menos control, recursos compartidos pueden afectar tu sitio.</p>
+                <p style="color:var(--gray);"><strong>Mejor para:</strong> Blogs, sitios pequeños, portafolios personales.</p>
+
+                <h4 style="color:var(--primary);margin-top:1rem;">2. Servidor Dedicado</h4>
+                <p style="color:var(--gray);margin-top:0.5rem;"><strong>¿Qué es?</strong> Un servidor completo solo para tu sitio web, con todos los recursos disponibles.</p>
+                <p style="color:var(--gray);"><strong>Ventajas:</strong> Máximo rendimiento, control total, seguridad superior, personalización completa.</p>
+                <p style="color:var(--gray);"><strong>Desventajas:</strong> Muy costoso, requiere conocimientos técnicos, mantenimiento manual.</p>
+                <p style="color:var(--gray);"><strong>Mejor para:</strong> Grandes empresas, sitios de alto tráfico, aplicaciones críticas.</p>
+
+                <h4 style="color:var(--primary);margin-top:1rem;">3. Servidor Virtual Privado (VPS)</h4>
+                <p style="color:var(--gray);margin-top:0.5rem;"><strong>¿Qué es?</strong> Espacio virtualizando en un servidor físico con recursos garantizados.</p>
+                <p style="color:var(--gray);"><strong>Ventajas:</strong> Precio moderado, mejor rendimiento que compartido, más control, recursos garantizados.</p>
+                <p style="color:var(--gray);"><strong>Desventajas:</strong> Requiere algunos conocimientos técnicos, mantenimiento necesario.</p>
+                <p style="color:var(--gray);"><strong>Mejor para:</strong> Empresas en crecimiento, sitios medianos, aplicaciones web.</p>
+
+                <h4 style="color:var(--primary);margin-top:1rem;">4. Hosting en la Nube (Cloud Hosting)</h4>
+                <p style="color:var(--gray);margin-top:0.5rem;"><strong>¿Qué es?</strong> Tu sitio se distribuye en múltiples servidores en diferentes ubicaciones.</p>
+                <p style="color:var(--gray);"><strong>Ventajas:</strong> Escalabilidad automática, alta disponibilidad, pago por uso, confiabilidad excepcional.</p>
+                <p style="color:var(--gray);"><strong>Desventajas:</strong> Puede ser costoso con alto tráfico, configuración inicial compleja.</p>
+                <p style="color:var(--gray);"><strong>Mejor para:</strong> Startups, aplicaciones con tráfico variable, proyectos globales.</p>
+            </div>
+
+            <h2 style="color:var(--light);margin-top:1.5rem;">Cómo Funciona un Servidor Web</h2>
+            <p style="color:var(--gray);margin-top:0.8rem;">El proceso es simple pero poderoso:</p>
+            <ol style="margin-top:0.8rem;color:var(--gray);margin-left:1.5rem;">
+                <li><strong>Solicitud del Cliente:</strong> Escribes una URL en tu navegador</li>
+                <li><strong>Búsqueda del Servidor:</strong> El navegador localiza la dirección IP del servidor mediante DNS</li>
+                <li><strong>Conexión HTTP/HTTPS:</strong> Se establece una conexión segura con el servidor</li>
+                <li><strong>Procesamiento:</strong> El servidor localiza el archivo solicitado y lo procesa</li>
+                <li><strong>Respuesta:</strong> El servidor envía el archivo (HTML, imágenes, etc.) al navegador</li>
+                <li><strong>Renderizado:</strong> Tu navegador muestra el contenido en la pantalla</li>
+            </ol>
+
+            <h2 style="color:var(--light);margin-top:1.5rem;">Software de Servidor Web Popular</h2>
+            <p style="color:var(--gray);margin-top:0.8rem;">Los servidores ejecutan software especializado:</p>
+            <ul style="margin-top:0.8rem;color:var(--gray);margin-left:1.5rem;">
+                <li><strong>Apache HTTP Server:</strong> El más utilizado, muy flexible y personalizable</li>
+                <li><strong>Nginx:</strong> Moderno, rápido y eficiente, ideal para alto rendimiento</li>
+                <li><strong>Microsoft IIS:</strong> Para aplicaciones .NET y entorno Windows</li>
+                <li><strong>Lighttpd:</strong> Ligero y rápido para servidores con recursos limitados</li>
+                <li><strong>Node.js:</strong> Para aplicaciones JavaScript del lado del servidor</li>
+            </ul>
+
+            <h2 style="color:var(--light);margin-top:1.5rem;">Configuración Esencial de un Servidor</h2>
+            <p style="color:var(--gray);margin-top:0.8rem;"><strong>Certificado SSL/TLS:</strong> Encripta la comunicación entre tu navegador y el servidor (HTTPS)</p>
+            <p style="color:var(--gray);margin-top:0.5rem;"><strong>Permiso de Archivos:</strong> Controla quién puede leer/escribir archivos en el servidor</p>
+            <p style="color:var(--gray);margin-top:0.5rem;"><strong>Limites de Memoria y CPU:</strong> Evita que un sitio agote todos los recursos</p>
+            <p style="color:var(--gray);margin-top:0.5rem;"><strong>Logs y Monitoreo:</strong> Registran todo lo que sucede en el servidor</p>
+            <p style="color:var(--gray);margin-top:0.5rem;"><strong>Firewall y Protección:</strong> Bloquean accesos no autorizados</p>
+
+            <h2 style="color:var(--light);margin-top:1.5rem;">Consideraciones al Elegir un Servidor</h2>
+            <ul style="margin-top:0.8rem;color:var(--gray);margin-left:1.5rem;">
+                <li><strong>Presupuesto:</strong> Desde $5/mes para compartido hasta $1000+/mes para dedicado</li>
+                <li><strong>Tráfico esperado:</strong> ¿Cuántas visitas recibirás mensualmente?</li>
+                <li><strong>Ubicación geográfica:</strong> Servidores cerca de tus usuarios ofrecen mejor velocidad</li>
+                <li><strong>Uptime (disponibilidad):</strong> Busca garantías de 99.9% uptime</li>
+                <li><strong>Soporte técnico:</strong> ¿Disponible 24/7 si hay problemas?</li>
+                <li><strong>Escalabilidad:</strong> ¿Podrás crecer fácilmente si lo necesitas?</li>
+                <li><strong>Backups automáticos:</strong> ¿Tu proveedor realiza copias de seguridad?</li>
+            </ul>
+
+            <h2 style="color:var(--light);margin-top:1.5rem;">Proveedores de Hosting Recomendados</h2>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem;margin-top:1rem;">
+                <div style="border:1px solid rgba(var(--light-rgb),0.1);padding:1rem;border-radius:8px;">
+                    <h4 style="color:var(--primary);">Bluehost</h4>
+                    <p style="color:var(--gray);font-size:0.9rem;">Excelente para WordPress, compartido y VPS</p>
+                </div>
+                <div style="border:1px solid rgba(var(--light-rgb),0.1);padding:1rem;border-radius:8px;">
+                    <h4 style="color:var(--primary);">SiteGround</h4>
+                    <p style="color:var(--gray);font-size:0.9rem;">Soporte premium, rendimiento excelente</p>
+                </div>
+                <div style="border:1px solid rgba(var(--light-rgb),0.1);padding:1rem;border-radius:8px;">
+                    <h4 style="color:var(--primary);">AWS</h4>
+                    <p style="color:var(--gray);font-size:0.9rem;">Potencia empresarial, cloud hosting</p>
+                </div>
+                <div style="border:1px solid rgba(var(--light-rgb),0.1);padding:1rem;border-radius:8px;">
+                    <h4 style="color:var(--primary);">Digital Ocean</h4>
+                    <p style="color:var(--gray);font-size:0.9rem;">VPS asequible, desarrolladores</p>
+                </div>
+                <div style="border:1px solid rgba(var(--light-rgb),0.1);padding:1rem;border-radius:8px;">
+                    <h4 style="color:var(--primary);">Hostinger</h4>
+                    <p style="color:var(--gray);font-size:0.9rem;">Precio económico, buena calidad</p>
+                </div>
+                <div style="border:1px solid rgba(var(--light-rgb),0.1);padding:1rem;border-radius:8px;">
+                    <h4 style="color:var(--primary);">GoDaddy</h4>
+                    <p style="color:var(--gray);font-size:0.9rem;">Todo en uno, fácil para principiantes</p>
+                </div>
+            </div>
+
+            <h2 style="color:var(--light);margin-top:1.5rem;">Puntos Clave a Recordar</h2>
+            <ul style="margin-top:0.8rem;color:var(--gray);margin-left:1.5rem;">
+                <li>Los servidores web son computadoras especializadas que alojan tu sitio 24/7</li>
+                <li>Cada tipo de hosting (compartido, VPS, dedicado, cloud) tiene pros y contras</li>
+                <li>La elección correcta depende de tu presupuesto, tráfico y necesidades técnicas</li>
+                <li>Invertir en un buen servidor es invertir en la velocidad y confiabilidad de tu sitio</li>
+                <li>Siempre verifica el uptime garantizado y el soporte técnico disponible</li>
+                <li>Los servidores requieren actualizaciones y mantenimiento regular</li>
+            </ul>
+
+            <p style="margin-top:2rem;"><a href="index.html" class="btn btn-secondary">← Volver al inicio</a></p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; Publicación Web Profesional</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
